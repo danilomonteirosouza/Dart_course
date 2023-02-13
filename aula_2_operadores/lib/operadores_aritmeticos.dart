@@ -66,7 +66,7 @@ void main(){
   print('Deslocamento de bit a direita sem sinal e atribuição');
   int c6 = 1;
   c6 >>>= 60;
-  print(c6);
+  print(c6);s
 
   print('\nSomando valores inteiros com valores double');
   num s, var1 = 10.0, var2 = 20;
