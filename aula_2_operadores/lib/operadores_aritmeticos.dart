@@ -189,4 +189,10 @@ void main(){
   var shiftDU = -42 >>> 1;
   print(shiftDU.toRadixString(2).padLeft(8, '0'));
 
+  print('Casting');
+  Map pessoa = {"nome":"test","carros":["Honda","Suzuki","Toyota"]};
+  var listaCarros = pessoa["carros"] as List;
+  print(pessoa.runtimeType);
+  print(listaCarros.runtimeType);
+
 }
